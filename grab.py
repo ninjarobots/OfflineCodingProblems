@@ -13,7 +13,7 @@ for i in range(1,667):
     fn = fileName.group().strip("<h2>")
     fn = fn.strip("</")
     fn = fn.replace(" ", "_")
-    fn = "/home/james/Documents/practice/exercises/" + str(i) + "." + fn + ".html"
+    fn = "exercises/" + str(i) + "." + fn + ".html"
     print(fn)
     file = open(fn, "w")
     file.write(text)
