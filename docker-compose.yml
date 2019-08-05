@@ -2,7 +2,10 @@ version: "3"
 services:
   python:
     image: python:2
+<<<<<<< HEAD
     stdin_open: true
     tty: true
+=======
+>>>>>>> a603a030c89db0984cfd567977fcac9362ded1f8
     volumes:
       - ./:/app
